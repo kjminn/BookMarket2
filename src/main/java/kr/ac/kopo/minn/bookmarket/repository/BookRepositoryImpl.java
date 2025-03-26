@@ -29,7 +29,7 @@ public class BookRepositoryImpl implements BookRepository {
 
         Book book2 = new Book();
         book2.setBookId("isbn0002");
-        book2.setName("Android Studio를 활용한 안드로이드 프로그래밍");
+        book2.setName("안드로이드 프로그래밍");
         book2.setUnitPrice(BigDecimal.valueOf(34000));
         book2.setAuthor("우재남, 박길식");
         book2.setDescription("이 책은 대학교나 IT 전문학원의 안드로이드 프로그래밍 과목 수강생을 대상으로 한다. " +
